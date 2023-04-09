@@ -5,29 +5,37 @@ UFO Sightings Web App: [UFO Sightings](file:///C:/Users/jocqu/Class/UFOs/index.h
 - The purpose of this project is to provide a more in-depth analysis of UFO sightings, by allowing users to filter for multiple criteria; including date, city, state, country, and the shape of the sighting. Furhter exploration into drawbacks of the features as well as reccommendations for development will also be provided.
 
 ## Results
-- Based on the Summary Statistics for June and December, 3 Key Differences between the two times of the year can be identified when observing the summary statistics from the tables below
-
-![SurfsUp_Challenge_Screenshot_1](https://user-images.githubusercontent.com/120291854/225101719-e1a74c54-0f34-4058-91f7-f35b617e7011.png)
-![SurfsUp_Challenge_Screenshot_2](https://user-images.githubusercontent.com/120291854/225101739-e280d82a-9823-4170-ae1f-439b3357bf27.png)
+- Using the Search Criteria on the Webpage
 
 ### 1. Navigate to the Webpage
 ![UFO_Sightings_Challenge_Screenshot_1](https://user-images.githubusercontent.com/120291854/230747081-3af83349-1830-4fa1-9919-7a13e2ff5f70.png)
 
-- The first difference we notice when evaluating the summary statistics is the differnnce in the count between June and December. The count represents the number of temperature observations recorded by the various stations on the island for that month. The count for June is 1700 while the count for December is only 1517.
+- The link at the top of this document takes users the new UFO Sightings Webpage, while the image above shows us what the user will see on the main page.
 
 ### 2. Identify the Table 
-- The tables above allow us to compare the temperatures, in Oahu, from June and December. One of the first statistics that stand out are the differences in the mean temperature values for June versus December. The average temperature in June is 74.9 °F, while the average temperature in December is only 71.0 °F. The median, represented by the 50% percentile value in the tables, is 75.0 °F for June and only 71.0 °F for December, indicating December has lower measures of central tendency than June.
+![UFO_Sightings_Challenge_Screenshot_2](https://user-images.githubusercontent.com/120291854/230747178-94344265-0ad9-4b60-b3ef-5768546b7669.png)
+
+- If we zoom in on the bottom right portion of the main page we can see the table of UFO sightings.
 
 ### 3. Idnetify the Filter Criteria for Searches
-- The final major difference that stands out when observing the summary statistics for temperatures in June vs. December for the island of Oahu, is the difference in the spread of temperature values for the two months. For June, the standard deviation is 3.26 °F while the standard deviation in December is 3.75 °F. The Interquartile Range (IQR), determined by subtracting the 75th percentile value from the 25th percentile value, is 4.00 °F for the month of June and 5.00 °F for the month of December. 
+![UFO_Sightings_Challenge_Screenshot_3](https://user-images.githubusercontent.com/120291854/230747193-b9226cd1-1aff-4775-9933-bbd2cfec1d77.png)
+
+- If we zoom in on the bottom left section of the main page we find the filters section. This is where users will input search criteria for UFO sightings. Users can filter the data in the table by date, city, state, country, and shape of the UFO sighting. Placeholder values are also provided in each field as a formatting aid.
 
 ### 4. Performing a Search for One Criteria
-- The final major difference that stands out when observing the summary statistics for temperatures in June vs. December for the island of Oahu, is the difference in the spread of temperature values for the two months. For June, the standard deviation is 3.26 °F while the standard deviation in December is 3.75 °F. The Interquartile Range (IQR), determined by subtracting the 75th percentile value from the 25th percentile value, is 4.00 °F for the month of June and 5.00 °F for the month of December. 
+![UFO_Sightings_Challenge_Screenshot_4](https://user-images.githubusercontent.com/120291854/230747203-4640639b-c117-4e5a-aa0b-f75d4d44d739.png)
+
+- In the image above, the table is filtered by city. The city of San Diego has been entered in the search field for cities and the output is a new, filtered table for all sightings in San Diego. All the user is required to do is enter the name of a city in the format provided by the placeholder and then hit "enter". The same holds true for the other search fields.
 
 ### 5. Performing a Search with Multiple Criteria
-- The final major difference that stands out when observing the summary statistics for temperatures in June vs. December for the island of Oahu, is the difference in the spread of temperature values for the two months. For June, the standard deviation is 3.26 °F while the standard deviation in December is 3.75 °F. The Interquartile Range (IQR), determined by subtracting the 75th percentile value from the 25th percentile value, is 4.00 °F for the month of June and 5.00 °F for the month of December. 
+![UFO_Sightings_Challenge_Screenshot_5](https://user-images.githubusercontent.com/120291854/230747207-9e57e207-157e-4dc7-a0d1-d9184a384e59.png)
+![UFO_Sightings_Challenge_Screenshot_6](https://user-images.githubusercontent.com/120291854/230747212-ed8f6aaa-d13f-440c-a02d-91bb4286a58e.png)
+
+- The table can even be filtered for multiple search criteria at once! In the first image we have filtered the table for all UFO sightings in the state of Florida. However, in the second image we have an additional criteria specifically for sphere-shaped sightings in the state of Florida. The output is a table containing only UFO sightings in Florida where a spherical object was observed.
 
 ## Summary
-- In our analysis we were able to see how the temperature in Oahu varies during different times of the year by comparing temperature summary statistics for the months of June and December. Specifically, we were able to identify higher, but relatively similar temperatures in June over December. The lower measures of central tendency for December can be explained by the higher measures of spread between the values in December over June. This tells us that there are is a greater difference in temperature values between the two months on the lower end of the spectrum, and this is further supported by much lower minimum temperature value for December (56.0 °F) when compared to June's minimimum (64.0 °F). With temperature averages in the seventies for both months, a surfing and ice cream business on the island should be feasible year-round.
+- One drawback of this new design is that there is currently no way to filter the data by multiple of the same criteria. For example, there is no way for the user to search for all UFO sightings in both Florida and Texas. 
 
-- One suggestion I would make to further corroborate our conclusion is to observe the difference in temperature between the various weather stations on the island. This could help us to find any weird outliers in the data that may skew our results due to a particular station. An additional query we could perform would be to obtain the number of days that a non-zero amount was recorded for precipitation on the island over a specific year. This query would give us the number of days that rainfall occurs to go along with the amount of precipitation recorded that we queried for earlier in the Module.
+- One suggestion we could implement to improve the usability of the search filters, would be to include search criteria for duration and comments. For Duration, we could have multiple single-select options for the user that each provide a time range. For comments, we could provide a field for keywords that the user can input. The resulting table would contain all instances of the keyowrd the user input.
+
+- Another improvement wouild be to edit the date section to allow for users to filter by a range of dates, rather than a specific date. For example, we could allow the user to search for all dates before or after the entered date by adding buttons for "before" and "after" or making these two separate fields next to each other. There are a plethora of options when it comes to builing optimal filter functionalities.
