@@ -28,8 +28,8 @@ UFO Sightings Web App: [UFO Sightings](file:///C:/Users/jocqu/Class/UFOs/index.h
 - In the image above, the table is filtered by city. The city of San Diego has been entered in the search field for cities and the output is a new, filtered table for all sightings in San Diego. All the user is required to do is enter the name of a city in the format provided by the placeholder and then hit "enter". The same holds true for the other search fields.
 
 ### 5. Performing a Search with Multiple Criteria
-![UFO_Sightings_Challenge_Screenshot_5](https://user-images.githubusercontent.com/120291854/230747207-9e57e207-157e-4dc7-a0d1-d9184a384e59.png)
-![UFO_Sightings_Challenge_Screenshot_6](https://user-images.githubusercontent.com/120291854/230747212-ed8f6aaa-d13f-440c-a02d-91bb4286a58e.png)
+![UFO_Sightings_Challenge_Screenshot_5](https://user-images.githubusercontent.com/120291854/230748689-4960c2bc-3a01-400d-9b5c-ccc1622a433d.png)
+![UFO_Sightings_Challenge_Screenshot_6](https://user-images.githubusercontent.com/120291854/230748692-50a661ba-971d-4616-affd-0187de4ac24d.png)
 
 - The table can even be filtered for multiple search criteria at once! In the first image we have filtered the table for all UFO sightings in the state of Florida. However, in the second image we have an additional criteria specifically for sphere-shaped sightings in the state of Florida. The output is a table containing only UFO sightings in Florida where a spherical object was observed.
 
